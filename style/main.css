@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+/* font-family: 'Quicksand', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  font-family: "Quicksand", sans-serif;
+}
+
+span {
+  color: #952026;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #952026;
+  transition: 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-right: 2.5rem;
+}
+
+body {
+  background-color: #100c08;
+}
+
+header {
+  color: #fff;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+#first_div {
+  width: 50%;
+  margin: auto;
+  height: 600px;
+  margin-top: 10rem;
+  border: 1px solid #952026;
+  padding: 2rem;
+}
+
+#first {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  height: 100%;
+}
+
+#first_image {
+  background: url("../images/img1.jpg") bottom/cover no-repeat;
+}
+
+.image {
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  text-align: justify;
+}
+
+.text h1 {
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+}
+
+.text p {
+  line-height: 1.5rem;
+}
